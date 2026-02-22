@@ -175,8 +175,8 @@ show_menu() {
 }
 
 case "${1:-}" in
-    optimize|enable) do_optimize ;;
     restore|disable) do_restore ;;
     status) show_info; show_result ;;
-    *) show_menu ;;
+    menu) show_menu ;;
+    *) show_info; do_optimize ;;
 esac
