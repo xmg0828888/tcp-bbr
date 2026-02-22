@@ -5,7 +5,7 @@
 ## 一键安装
 
 ```
-curl -sL https://cdn.jsdelivr.net/gh/xmg0828888/tcp-bbr@main/bbr.sh -o bbr.sh && chmod +x bbr.sh && ./bbr.sh
+curl -sL https://cdn.jsdelivr.net/gh/xmg0828888/tcp-bbr/bbr.sh -o bbr.sh && chmod +x bbr.sh && ./bbr.sh
 ```
 
 ## 优化内容
